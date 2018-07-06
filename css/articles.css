@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body {
+  background-color: #141518;
+}
+
+h1 {
+  font-family: 'Crete Round', sans-serif;
+  color: white;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+/**** Navbar ****/
+.sticky-nav {
+  padding-left: 15px !important;
+}
+
+.dropdown-menu {
+  background-color: #34302D;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  border: 0 !important;
+}
+
+.dropdown-menu > li > a:hover, a:focus {
+  background-color: #262321 !important;
+  color: #ffffff !important;
+}
+
+.dropdown-menu a {
+  color: #ffffff !important;
+  background-color: #34302D !important;
+}
+
+.menu-padding {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.content {
+  margin-top: 0px;
+  padding-bottom: 50px;
+}
+
+/**** Body ****/
+.comic-wrapper {
+  background-color: #2C2F34;
+  margin-top: 50px;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.info-wrapper {
+  background-color: #2C2F34;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.info-wrapper a {
+  color: #42A5F5;
+}
+
+.panel {
+  margin-top: 20px;
+}
+
+.divider {
+  border-bottom: 1px solid #141518;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
